@@ -35,9 +35,11 @@
 
 .card {
   padding: 2em;
+  /* here */
+  background-color: aquamarine;
 }
 
 .read-the-docs {
-  /* color: #888; */
-  color: #800;
+  color: #888;
+ 
 }
