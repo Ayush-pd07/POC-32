@@ -17,7 +17,7 @@ const pasteSlice = createSlice({
 
       if (index >= 0) {
         // If the course is already in the Pastes, do not modify the quantity
-        toast.error("Paste already exist")
+        toast.error("Paste already exist here")
         return
       }
       // If the course is not in the Pastes, add it to the Pastes
