@@ -26,7 +26,7 @@ const Paste = () => {
         <div className="w-full flex gap-3 px-4 py-2  rounded-[0.3rem] border border-[rgba(128,121,121,0.3)]  mt-6">
           <input
             type="search"
-            placeholder="Search paste here..."
+            placeholder="Search paste here please..."
             className="focus:outline-none w-full bg-transparent"
             value={searchTerm} // Bind the input to searchTerm state
             onChange={(e) => setSearchTerm(e.target.value)} // Update searchTerm on input change
